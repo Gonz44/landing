@@ -1,0 +1,131 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container1 {
+  width: 900px;
+  margin-left: 575px;
+}
+
+.banner {
+  background-image: url("../images/ltsloponbg.png"),linear-gradient(rgba(255, 195, 113, 0.1),rgba(255, 95, 109, 0.7));
+  background-size: contain;
+  background-position: left;
+  padding: 200px 0;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: red;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  margin-left: 250px;
+  font-style: bold;
+}
+
+.btn-secondary {
+  border: 1px solid black;
+  padding: 8px 8px;
+  border-radius: 50px;
+  color: black;
+  font-style: bolder;
+  background-color: red;
+}
+
+.btn-third {
+  border: 1px solid black;
+  padding: 8px 8px;
+  border-radius: 50px;
+  color: black;
+  font-style: bolder;
+  background-color: red;
+}
+
+.btn-fourth {
+  border: 1px solid black;
+  padding: 8px 8px;
+  border-radius: 50px;
+  color: black;
+  font-style: bolder;
+  background-color: red;
+}
+
+
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color:  black
+}
+
+.footer a {
+  font-size: 30px;
+  color: red;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
